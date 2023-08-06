@@ -1,0 +1,114 @@
+.navbar {
+  height: 80px; /* Set the initial height for the navbar */
+  display: flex;
+}
+
+/* Responsive height using media queries */
+@media (max-width: 576px) {
+  /* For screens smaller than 576px, adjust the height (e.g., 60px) */
+  .navbar {
+    height: 60px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* For screens between 576px and 768px, adjust the height (e.g., 70px) */
+  .navbar {
+    height: 70px;
+  }
+}
+
+/* Add more media queries and height adjustments as needed for other screen sizes */
+
+
+.navbar-brand {
+  cursor: pointer;
+  color: #212529;
+}
+
+.table {
+  margin: auto;
+  margin-top: 20px;
+  width: 100% !important;
+  font-size: 0.875em;
+  bottom: 100px !important;
+  table-layout: auto;
+}
+
+#alertTest {
+  width: 50% !important;
+}
+
+.alert-pos {
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25vw, -1vh);
+}
+
+.table-header {
+  vertical-align: middle;
+  position: sticky;
+  top: 75px;
+  z-index: 1;
+}
+
+.table-body {
+  vertical-align: middle;
+  padding-top: 400px;
+}
+
+.table-scroll {
+  max-height: 840px;
+  overflow-y: auto;
+  top: 100px;
+}
+
+// Search bar
+#searchResults {
+  position: absolute;
+  width: 100%;
+  margin-top: 2px;
+  left: 0;
+  z-index: 1000;
+}
+
+.position-relative {
+  position: relative;
+  flex-grow: 1;
+}
+
+.search-dropdown {
+  position: absolute;
+  width: 400px;
+  margin-top: 2px;
+  left: 0;
+  z-index: 1000;
+}
+
+#searchInput {
+  width: 20vw;
+}
+
+.hero {
+  padding-bottom: 13vw;
+}
+
+// Bulk
+.navbar-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-white, .form-label {
+  color: #f7f7f7;
+}
+
+.shadow {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+}
+
+.shadow-table {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.20);
+}
